@@ -190,6 +190,10 @@ header {
   .header__menu {
     flex-direction: row;
     transform: none;
+    position: static;
+    background: none;
+    width: unset;
+    height: unset;
   }
 
   .header__menu a {
