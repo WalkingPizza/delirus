@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Vonnes";
+  src: url("../fonts/Vonnes-Book.woff") format("woff2"),
+    url("../fonts/Vonnes-Book.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vonnes";
+  src: url("../fonts/Vonnes-Light.woff2") format("woff2"),
+    url("../fonts/Vonnes-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
