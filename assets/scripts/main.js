@@ -20,7 +20,9 @@ const toggleMenu = (e) => {
   )
     return;
 
-  menu.classList.toggle("header__menu--open");
+  const isOpen = menu.classList.toggle("header__menu--open");
+
+  document.body.style.overflow = isOpen ? "hidden" : "auto";
 };
 
 document.addEventListener("scroll", observeHeader);
