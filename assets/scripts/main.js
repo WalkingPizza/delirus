@@ -25,6 +25,16 @@ const toggleMenu = (e) => {
   document.body.style.overflow = isOpen ? "hidden" : "auto";
 };
 
+const setViewportHeightUnit = () => {
+  console.log(window.innerHeight);
+
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+};
+
+setViewportHeightUnit();
+
+document.addEventListener("resize", setViewportHeightUnit);
 document.addEventListener("scroll", observeHeader);
 document.addEventListener("DOMContentLoaded", observeHeader);
 document.addEventListener("click", toggleMenu);
