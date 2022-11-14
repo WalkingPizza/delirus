@@ -143,6 +143,11 @@ header {
   background-color: var(--green);
 }
 
+.header__logo.mobile-only {
+  width: auto;
+  height: 100%;
+}
+
 .header__menu {
   display: flex;
   flex-direction: column;
@@ -270,6 +275,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.ventures-stat__label {
+  text-align: center;
 }
 
 .ventures-stat__highlight {
