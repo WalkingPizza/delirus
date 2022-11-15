@@ -1,0 +1,15 @@
+on: push
+name: Deploy on Register
+jobs:
+  ftp-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
