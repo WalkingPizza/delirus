@@ -98,8 +98,8 @@ section:last-of-type {
   line-height: 24px;
 }
 
-.paragraph > br,
-.paragraph--large > br {
+.paragraph>br,
+.paragraph--large>br {
   display: none;
 }
 
@@ -118,8 +118,8 @@ section:last-of-type {
     line-height: 80px;
   }
 
-  .paragraph > br,
-  .paragraph--large > br {
+  .paragraph>br,
+  .paragraph--large>br {
     display: block;
   }
 }
@@ -317,9 +317,9 @@ header {
     padding: 0;
   }
 
-  .ventures__logo:nth-last-child(2) {
+  /* .ventures__logo:nth-last-child(2) {
     grid-column: 2;
-  }
+  } */
 }
 
 /* Approach */
