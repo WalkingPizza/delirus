@@ -317,9 +317,9 @@ header {
     padding: 0;
   }
 
-   /* .ventures__logo:nth-last-child(2) {
+    .ventures__logo:nth-last-child(1) {
     grid-column: 2; 
-  } */
+  } 
 }
 
 /* Approach */
